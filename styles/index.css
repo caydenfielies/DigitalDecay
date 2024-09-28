@@ -65,6 +65,14 @@ body {
     background-color: rgb(238, 238, 238);
 }
 
+#continue-button:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+#continue-button:active {
+    background-color: rgb(133, 133, 133);
+}
+
 #arrow-forward-icon {
     width: 24px;
 }
