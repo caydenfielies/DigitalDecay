@@ -50,8 +50,13 @@ body {
 }
 
 .information-table  td{
+    width: 45%;
     border: none;
     vertical-align: top;
+}
+
+.information-table h2{
+    margin: 16px;
 }
 
 #continue-button {
