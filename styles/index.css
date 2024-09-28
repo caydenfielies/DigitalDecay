@@ -60,7 +60,7 @@ body {
 }
 
 #continue-button {
-    display: flex;
+    display: inline flex;
     align-items: center;
     justify-content: space-between;
     font-family: Space Grotesk;
