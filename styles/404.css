@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(236, 236, 226);
+    font-family: Space Grotesk;
+    margin: 15px 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right a {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation-links {
+    margin-left: 10px;
+}
+
+.empty-space {
+    height: 90px;
+}
+
+#hero-phrase {
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 110px;
+}
+
+#cayden-fielies {
+    font-family: JetBrains Mono;
+    margin-bottom: 0;
+}
+
+#home-image {
+    width: 100%;
+    margin-top: 110px;
+    border-radius: 20px;
+}
