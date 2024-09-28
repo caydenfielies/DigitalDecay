@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(236, 236, 226);
+    font-family: Space Grotesk;
+    margin: 15px 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-links {
+    margin-left: 10px;
+}
+
+.empty-space {
+    height: 90px;
+}
+
+#hero-phrase {
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 110px;
+}
+
+#cayden-fielies {
+    font-family: JetBrains Mono;
+    margin-bottom: 0;
+}
+
+#home-image {
+    width: 100%;
+    margin-top: 110px;
+    border-radius: 20px;
+}
+
+.information-table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.information-table  td{
+    border: none;
+    vertical-align: top;
+}
+
+#continue-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Space Grotesk;
+    width: 155px;
+    margin-left: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#arrow-forward-icon {
+    width: 24px;
+}
+
+.end-empty-space {
+    height: 110px;
+}
+
+@media (max-width: 750px) {
+    #hero-phrase {
+        margin-bottom: 0;
+        margin-top: 0px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+    }
+    
+    #home-image {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+
+    .information-table {
+        display: none;
+    }
+
+    .information-mobile {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 971px) {
+    .information-mobile {
+        display: none;
+    }
+
+    #hero-phrase {
+        margin-bottom: 0;
+        margin-top: 0px;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 70px;
+    }
+}
+
+@media (min-width: 971px) and (max-width: 1112px) {
+    .information-mobile {
+        display: none;
+    }
+
+    #hero-phrase {
+        margin-bottom: 0;
+        margin-top: 0px;
+        font-size: 80px;
+        font-weight: 500;
+        line-height: 90px;
+    }
+}
+
+@media (min-width: 1112px) {
+    .information-mobile {
+        display: none;
+    }
+}
