@@ -76,6 +76,12 @@ body {
         font-weight: 500;
         line-height: 50px;
     }
+
+    #cayden-fielies {
+        font-family: JetBrains Mono;
+        margin-bottom: 0;
+        font-size: 13px;
+    }
     
     #home-image {
         width: 100%;
