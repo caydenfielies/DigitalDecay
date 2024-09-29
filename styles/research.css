@@ -176,7 +176,7 @@ a {
 @media (max-width: 750px) {
     #heading {
         font-size: 40px;
-        line-height: 50px;
+        line-height: 70px;
     }
     
     .content {
