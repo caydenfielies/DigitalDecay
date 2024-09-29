@@ -4,6 +4,11 @@ body {
     margin: 15px 30px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 ::-moz-selection {
     background: lightgreen;
 }
@@ -16,11 +21,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header a {
-    color: black;
-    text-decoration: none;
 }
 
 .navigation-links {
@@ -74,7 +74,6 @@ body {
     font-family: Space Grotesk;
     width: 155px;
     margin-left: auto;
-    margin-top: 30px;
     cursor: pointer;
     border: solid;
     border-width: 1px;
