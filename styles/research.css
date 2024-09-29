@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(236, 236, 226);
+    font-family: Space Grotesk;
+    margin: 15px 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+::-moz-selection {
+    background: lightgreen;
+}
+
+::selection {
+    background: lightgreen;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-links {
+    margin-left: 10px;
+}
+
+.empty-space {
+    height: 90px;
+}
+
+#heading {
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 110px;
+    text-align: center;
+}
+
+#subheading {
+    font-family: JetBrains Mono;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.sidebar-button {
+    font-family: Space Grotesk;
+    width: 155px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.sidebar-button:hover {
+    color: rgb(63, 175, 63);
+}
+
+.sidebar-button:active {
+    color: rgb(25, 107, 25);
+}
+
+.content {
+    margin-top: 70px;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.sidebar-nav {
+    min-width: 20%;
+}
+
+.information-headings {
+    margin: 0px;
+}
+
+.information {
+    width: 60%;
+}
+
+.information-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.bib-heading {
+    margin-bottom: 15px;
+}
+
+.bib {
+    display: flex;
+    padding: 0px 15px;
+}
+
+.bib:hover {
+    background-color: lightgreen;
+    border-radius: 15px;
+}
+
+.source {
+    min-width: 25%;
+}
+
+#continue-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Space Grotesk;
+    width: 155px;
+    margin-left: auto;
+    margin-top: auto;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 0px 8px;
+    background-color: rgb(238, 238, 238);
+}
+
+#continue-button:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+#continue-button:active {
+    background-color: rgb(133, 133, 133);
+}
+
+#continue-link {
+    text-decoration: none;
+    color: black;
+}
+
+#arrow-forward-icon {
+    width: 24px;
+}
+
+.end-empty-space {
+    height: 110px;
+}
+
+.task-def-toggled {
+    display: none;
+}
+
+.quests-toggled {
+    display: none;
+}
+
+.bib-toggled {
+    display: none;
+}
+
+.content-not-toggled {
+    display: none;
+}
