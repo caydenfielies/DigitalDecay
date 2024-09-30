@@ -25,7 +25,7 @@ const myChart2 = new Chart(ctx2, {
     data: {
         labels: ['Yes', 'No'],
         datasets: [{
-            label: 'Percentage of people',
+            label: 'Percentage of participants',
             data: [56.67, 43.33],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -46,7 +46,7 @@ const myChart3 = new Chart(ctx3, {
     data: {
         labels: ['Rarely', 'Occasionally', 'Frequently', 'Almost always'],
         datasets: [{
-            label: 'Percentage of people',
+            label: 'Percentage of participants',
             data: [26.67, 63.33, 10, 0],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -75,7 +75,7 @@ const myChart4 = new Chart(ctx4, {
     data: {
         labels: ['Not knowledgeable', 'Somewhat knowledgeable', 'Knowledgeable', 'Very knowledgeable'],
         datasets: [{
-            label: 'Percentage of people',
+            label: 'Percentage of participants',
             data: [20, 56.67, 20, 3.33],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
@@ -104,7 +104,7 @@ const myChart5 = new Chart(ctx5, {
     data: {
         labels: ['1 (Not concerned)', '2', '3', '4', '5', '6', '7', '8', '9', '10 (Extremely concerned)'],
         datasets: [{
-            label: 'Percentage of people',
+            label: 'Percentage of participants',
             data: [10, 0, 3.33, 10, 26.67, 20, 20, 10, 0, 0],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
@@ -133,7 +133,7 @@ const myChart6 = new Chart(ctx6, {
     data: {
         labels: ['Rarely', 'Occasionally', 'Frequently', 'Almost always'],
         datasets: [{
-            label: 'Percentage of people',
+            label: 'Percentage of participants',
             data: [86.67, 13.33, 0, 0],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
@@ -162,7 +162,7 @@ const myChart7 = new Chart(ctx7, {
     data: {
         labels: ['Rarely', 'Occasionally', 'Frequently', 'Almost always'],
         datasets: [{
-            label: 'Percentage of people',
+            label: 'Percentage of participants',
             data: [66.67, 20, 6.67, 6.67],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
@@ -191,7 +191,7 @@ const myChart8 = new Chart(ctx8, {
     data: {
         labels: ['1 (Not willing)', '2', '3', '4', '5', '6', '7', '8', '9', '10 (Extremely willing)'],
         datasets: [{
-            label: 'Percentage of people',
+            label: 'Percentage of participants',
             data: [6.67, 6.67, 3.33, 3.33, 13.33, 13.33, 10, 13.33, 13.33, 16.67],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
