@@ -4,7 +4,7 @@ const myChart = new Chart(ctx, {
     data: {
         labels: ['Yes', 'No'],
         datasets: [{
-            label: 'Percentage of people',
+            label: 'Percentage of participants',
             data: [66.67, 33.33],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
