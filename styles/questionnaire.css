@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(236, 236, 226);
+    font-family: Space Grotesk;
+    margin: 15px 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+::-moz-selection {
+    background: lightgreen;
+}
+
+::selection {
+    background: lightgreen;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-links {
+    margin-left: 10px;
+}
+
+.empty-space {
+    height: 90px;
+}
+
+#heading {
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 110px;
+    text-align: center;
+}
+
+#subheading {
+    font-family: JetBrains Mono;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.graphs-heading {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+
+.chart-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart-box p {
+    text-align: center;
+}
+
+.chart-container {
+    width: 300px;
+    justify-content: center;
+}
+
+.chart-canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#continue-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Space Grotesk;
+    width: 155px;
+    margin-left: auto;
+    margin-top: 30px;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 0px 8px;
+    background-color: rgb(238, 238, 238);
+}
+
+#continue-button:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+#continue-button:active {
+    background-color: rgb(133, 133, 133);
+}
+
+#continue-link {
+    text-decoration: none;
+    color: black;
+}
+
+#arrow-forward-icon {
+    width: 24px;
+}
+
+.end-empty-space {
+    height: 110px;
+}
+
+@media (max-width: 570px) {
+    #heading {
+        font-size: 40px;
+    }
+
+    .charts-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 750px) {
+    #heading {
+        font-size: 55px;
+    }
+    
+    .charts-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1200px) {
+    .charts-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .charts-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

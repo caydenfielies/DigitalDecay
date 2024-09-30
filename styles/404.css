@@ -4,6 +4,11 @@ body {
     margin: 15px 30px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 ::-moz-selection {
     background: lightgreen;
 }
@@ -16,11 +21,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header a {
-    color: black;
-    text-decoration: none;
 }
 
 .navigation-links {
@@ -44,7 +44,7 @@ body {
     margin-bottom: 0;
 }
 
-#home-image {
+#image {
     width: 100%;
     margin-top: 110px;
     border-radius: 15px;

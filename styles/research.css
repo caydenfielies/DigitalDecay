@@ -178,7 +178,7 @@ a {
         font-size: 40px;
         line-height: 70px;
     }
-    
+
     .content {
         margin-top: 70px;
         display: flex;
@@ -189,8 +189,26 @@ a {
     }
 
     .sidebar-nav {
-        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 25px;
         width: 100%;
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+
+    .sidebar-button {
+        width: 100%;
+        margin: 8px 0px;
+        text-align: center;
+    }
+
+    .sidebar-button p {
+        text-align: center;
+        display: inline-block;
+        margin: 0px;
     }
 
     .continue-container {
@@ -214,6 +232,9 @@ a {
         display: flex;
         flex-direction: column;
         padding: 0px 15px;
+        background-color: rgba(153, 186, 153, 0.326);
+        border-radius: 15px;
+        margin-bottom: 10px;
     }
 
     .citation p {
@@ -222,36 +243,19 @@ a {
     }
 }
 
-@media (min-width: 750px) and (max-width: 971px) {
-    .information-mobile {
-        display: none;
+@media (min-width: 750px) and (max-width: 1230px) {
+    .bibliography {
+        width: 100%;
     }
 
-    #hero-phrase {
-        margin-bottom: 0;
-        margin-top: 0px;
-        font-size: 60px;
-        font-weight: 500;
-        line-height: 70px;
-    }
-}
-
-@media (min-width: 971px) and (max-width: 1112px) {
-    .information-mobile {
-        display: none;
+    .bib {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 15px;
     }
 
-    #hero-phrase {
-        margin-bottom: 0;
-        margin-top: 0px;
-        font-size: 80px;
-        font-weight: 500;
-        line-height: 90px;
-    }
-}
-
-@media (min-width: 1112px) {
-    .information-mobile {
-        display: none;
+    .citation p {
+        margin: 0px;
+        margin-bottom: 30px;
     }
 }

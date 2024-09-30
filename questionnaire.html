@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Digital Decay: Questionnaire</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/questionnaire.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <a href="index.html"><p>Digital Decay</p></a>
+        </div>
+
+        <div class="header-right">
+            <a class="navigation-links" href="index.html">Home</a>
+            <a class="navigation-links" href="research.html">Research</a>
+            <a class="navigation-links" href="questionnaire.html">Questionnaire</a>
+            <a class="navigation-links" href="participants.html">Participants</a>
+        </div>
+    </div>
+
+    <div class="empty-space"></div>
+
+    <h1 id="heading">Questionnaire</h1>
+    <p id="subheading">A questionnaire was conducted with 30 participants to </br> gather data on public 
+    awareness and practices regarding e-waste management.</p>
+
+    <h2 class="graphs-heading">Graphs</h2>
+
+    <div class="charts-grid">
+        <div class="chart-box">
+            <p>Do you know what e-waste is?</p>
+
+            <div class="chart-container">
+                <canvas class="chart-canvas" id="question1"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-box">
+            <p>Have you ever disposed of an electronic device improperly (e.g., in the trash)?</p>
+
+            <div class="chart-container">
+                <canvas class="chart-canvas" id="question2"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-box">
+            <p>How often do you purchase new electronic devices?</p>
+
+            <div class="chart-container">
+                <canvas class="chart-canvas" id="question3"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-box">
+            <p>How knowledgeable are you about the environmental impact of e-waste?</p>
+            
+            <div class="chart-container">
+                <canvas class="chart-canvas" id="question4"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-box">
+            <p>On a scale of 1 to 10, how concerned are you about the environmental impact of e-waste?</p>
+
+            <div class="chart-container">
+                <canvas class="chart-canvas" id="question5"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-box">
+            <p>How often do you encounter information about e-waste in the media?</p>
+
+            <div class="chart-container">
+                <canvas class="chart-canvas" id="question6"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-box">
+            <p>How often do you think about the long-term consequences of e-waste contamination on ecosystems?</p>
+            
+            <div class="chart-container">
+                <canvas class="chart-canvas" id="question7"></canvas>
+            </div>
+        </div>
+        
+        <div class="chart-box">
+            <p>On a scale of 1 to 10, how willing are you to change your habits to support better e-waste management?</p>
+
+            <div class="chart-container">
+                <canvas class="chart-canvas" id="question8"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <a id="continue-link" href="participants.html">
+        <div id="continue-button">
+            <p>Continue</p>
+            <img id="arrow-forward-icon" src="assets/arrow-forward.png">
+        </div>
+    </a>
+
+    <div class="end-empty-space"></div>
+
+    <script src="scripts/questionnaire.js"></script>
+</body>
+</html>
