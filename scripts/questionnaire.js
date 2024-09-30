@@ -192,7 +192,7 @@ const myChart8 = new Chart(ctx8, {
         labels: ['1 (Not willing)', '2', '3', '4', '5', '6', '7', '8', '9', '10 (Extremely willing)'],
         datasets: [{
             label: 'Percentage of people',
-            data: [6.67, 6.67, 3.33, 3.33, 13.33, 13.33, 10, 13.33, 13.33, 13.33, 16.67],
+            data: [6.67, 6.67, 3.33, 3.33, 13.33, 13.33, 10, 13.33, 13.33, 16.67],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
               'rgba(54, 162, 235, 0.2)',
