@@ -89,6 +89,10 @@ a {
     width: 24px;
 }
 
+.end-empty-space {
+    height: 110px;
+}
+
 @media (max-width: 590px) {
     #heading {
         font-size: 40px;
