@@ -26,7 +26,7 @@ const myChart2 = new Chart(ctx2, {
         labels: ['Yes', 'No'],
         datasets: [{
             label: 'Percentage of people',
-            data: [43.33, 56.67],
+            data: [56.67, 43.33],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)'
