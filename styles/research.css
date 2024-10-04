@@ -132,7 +132,6 @@ a {
     border: solid;
     border-width: 1px;
     border-radius: 2px;
-    padding: 0px 8px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -145,6 +144,11 @@ a {
 }
 
 #continue-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 8px;
     text-decoration: none;
     color: black;
 }
